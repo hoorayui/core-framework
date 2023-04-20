@@ -2,9 +2,7 @@ package redis
 
 import (
 	"encoding/json"
-
 	goredis "github.com/go-redis/redis"
-	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 	"github.com/hoorayui/core-framework/types"
 	"github.com/sirupsen/logrus"
 )
