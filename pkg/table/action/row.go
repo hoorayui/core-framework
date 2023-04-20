@@ -6,9 +6,9 @@ import (
 	"encoding/json"
 	"text/template"
 
-	"framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/msg/errors"
-	cap "framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 // ID creates id of an action

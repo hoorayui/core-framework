@@ -6,8 +6,8 @@ import (
 	"log"
 	"strings"
 
-	db "framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/msg/errors"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 	"github.com/go-sql-driver/mysql"
 	"github.com/jmoiron/sqlx"
 )

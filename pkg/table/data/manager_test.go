@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	db "framework/pkg/cap/database/mysql"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
 	_ "github.com/go-sql-driver/mysql"
 )
 

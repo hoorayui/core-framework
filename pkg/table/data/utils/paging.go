@@ -1,6 +1,6 @@
 package utils
 
-import cap "framework/pkg/table/proto"
+import cap "github.com/hoorayui/core-framework/pkg/table/proto"
 
 // DoMemoryPaging 内存数据分页处理
 func DoMemoryPaging(results []interface{}, pageParam *cap.PageParam) ([]interface{}, *cap.PageInfo) {

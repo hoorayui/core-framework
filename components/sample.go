@@ -2,8 +2,9 @@ package components
 
 import (
 	"encoding/json"
-	"framework/types"
+
 	goredis "github.com/go-redis/redis"
+	"github.com/hoorayui/core-framework/types"
 )
 
 type Instance struct {

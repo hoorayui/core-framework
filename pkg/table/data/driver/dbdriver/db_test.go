@@ -5,12 +5,12 @@ import (
 	"log"
 	"testing"
 
-	db "framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/test"
-	"framework/pkg/table/data/driver"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
-	rt "framework/pkg/table/registry/test"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/test"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
+	rt "github.com/hoorayui/core-framework/pkg/table/registry/test"
 	_ "github.com/go-sql-driver/mysql"
 )
 

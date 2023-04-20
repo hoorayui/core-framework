@@ -1,8 +1,9 @@
 package event
 
 import (
-	"framework/components/log"
+	"github.com/hoorayui/core-framework/components/log"
 )
+
 // registerHook 注册回调函数
 func registerHook(e string, hook func(string, interface{}) error) {
 	GetInstance().l.Lock()

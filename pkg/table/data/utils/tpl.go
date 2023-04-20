@@ -3,8 +3,8 @@ package utils
 import (
 	"reflect"
 
-	"framework/pkg/table/data/driver"
-	cap "framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 // 套娃函数

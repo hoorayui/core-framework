@@ -9,7 +9,7 @@ package rt
 import (
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
-	_ "framework/pkg/proto/extension"
+	_ "github.com/hoorayui/core-framework/pkg/proto/extension"
 	reflect "reflect"
 	sync "sync"
 )

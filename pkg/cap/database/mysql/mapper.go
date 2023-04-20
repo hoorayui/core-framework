@@ -5,7 +5,7 @@ import (
 	"log"
 	"sort"
 
-	"framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 )
 
 // MapperInit mapper initializer

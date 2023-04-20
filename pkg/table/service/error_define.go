@@ -1,6 +1,6 @@
 package service
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrNotFormAction ...
 var ErrNotFormAction = errors.New("action(%s) is not a form action")

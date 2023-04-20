@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"sync"
 
-	"framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 )
 
 // TableRegistry table registry

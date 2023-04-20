@@ -1,7 +1,7 @@
 syntax = "proto3";
 
 package cap;
-option go_package = "framework/pkg/table/proto;cap";
+option go_package = "github.com/hoorayui/core-framework/pkg/table/proto;cap";
 
 import "pkg/proto/vendor/google/api/annotations.proto";
 

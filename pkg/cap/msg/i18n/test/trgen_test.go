@@ -3,7 +3,7 @@ package test
 import (
 	"testing"
 
-	"framework/pkg/cap/msg/i18n"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/i18n"
 )
 
 func TestGenerateTranslatorCode(t *testing.T) {

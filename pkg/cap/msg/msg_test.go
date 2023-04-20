@@ -2,10 +2,10 @@ package msg
 
 import (
 	"fmt"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"testing"
 
-	"framework/pkg/cap/msg/i18n"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/i18n"
 	"golang.org/x/text/language"
 )
 

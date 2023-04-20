@@ -1,6 +1,6 @@
 package data
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrDupplicateDriverForTable ...
 var ErrDupplicateDriverForTable = errors.New("dupplicate driver for table(%s)")

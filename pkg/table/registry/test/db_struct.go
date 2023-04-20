@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"time"
 
-	cap "framework/pkg/table/proto"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 type TableTemplate struct {

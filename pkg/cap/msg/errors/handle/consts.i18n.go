@@ -4,7 +4,7 @@ package handle
 import (
 	"fmt"
 
-	"framework/pkg/cap/msg/i18n"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/i18n"
 	"golang.org/x/text/language"
 )
 

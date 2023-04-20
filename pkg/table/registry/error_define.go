@@ -1,6 +1,6 @@
 package registry
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrDupplicateNodeID dupplicate function id
 var ErrDupplicateNodeID = errors.New("dupplicate node id (%s)")

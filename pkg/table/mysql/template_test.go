@@ -2,13 +2,13 @@ package mysql
 
 import (
 	"encoding/json"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"log"
 	"testing"
 
-	db "framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/test"
-	"framework/pkg/cap/utils/idgen"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/test"
+	"github.com/hoorayui/core-framework/pkg/cap/utils/idgen"
 )
 
 var testDB *db.DB

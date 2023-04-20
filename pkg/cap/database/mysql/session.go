@@ -7,7 +7,7 @@ import (
 	"log"
 	"runtime/debug"
 
-	"framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 	"github.com/jmoiron/sqlx"
 )
 

@@ -9,9 +9,9 @@ import (
 	"sync"
 	"time"
 
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/table/action"
-	cap "framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/table/action"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 // ColumnLink ...

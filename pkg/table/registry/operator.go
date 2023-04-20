@@ -6,8 +6,8 @@ import (
 	"runtime"
 	"strings"
 
-	"framework/pkg/cap/msg/errors"
-	cap "framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 // OperatorNode ...
@@ -48,8 +48,8 @@ func verifyIDFmt(id string) error {
 	namespace := seg[0]
 	// builtin namespace reserved
 	if namespace == "builtin" {
-		if caller != "framework/pkg/table/operator/builtin.registerBuiltinOperator" &&
-			caller != "framework/pkg/table/operator/builtin.registerBuiltinOperatorSet" {
+		if caller != "github.com/hoorayui/core-framework/pkg/table/operator/builtin.registerBuiltinOperator" &&
+			caller != "github.com/hoorayui/core-framework/pkg/table/operator/builtin.registerBuiltinOperatorSet" {
 			return errors.Wrap(ErrBuiltinNamespaceNowAllowed).Log()
 		}
 	}

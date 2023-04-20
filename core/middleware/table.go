@@ -1,7 +1,7 @@
 package middleware
 
 import (
-	cap "framework/pkg/table/proto"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 // 表格白名单，以下表格都不控制权限

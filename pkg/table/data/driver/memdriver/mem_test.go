@@ -7,10 +7,10 @@ import (
 	"reflect"
 	"testing"
 
-	"framework/pkg/table/data/driver"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
-	rt "framework/pkg/table/registry/test"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
+	rt "github.com/hoorayui/core-framework/pkg/table/registry/test"
 	_ "github.com/araddon/qlbridge/qlbdriver"
 )
 

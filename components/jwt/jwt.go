@@ -2,8 +2,9 @@ package jwt
 
 import (
 	"errors"
-	"framework/util"
 	"time"
+
+	"github.com/hoorayui/core-framework/util"
 
 	"github.com/golang-jwt/jwt"
 )

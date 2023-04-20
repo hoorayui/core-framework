@@ -5,8 +5,8 @@ import (
 	"reflect"
 	"testing"
 
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 )
 
 func TestParseConditionValue(t *testing.T) {

@@ -1,14 +1,14 @@
 package errors
 
 import (
-	"framework/pkg/cap/msg/errors/handle"
-	"framework/pkg/table/data"
-	"framework/pkg/table/data/driver/dbdriver"
-	"framework/pkg/table/data/utils"
-	"framework/pkg/table/mysql"
-	"framework/pkg/table/registry"
-	"framework/pkg/table/service"
-	"framework/pkg/table/template"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors/handle"
+	"github.com/hoorayui/core-framework/pkg/table/data"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver/dbdriver"
+	"github.com/hoorayui/core-framework/pkg/table/data/utils"
+	"github.com/hoorayui/core-framework/pkg/table/mysql"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/table/service"
+	"github.com/hoorayui/core-framework/pkg/table/template"
 )
 
 func init() {

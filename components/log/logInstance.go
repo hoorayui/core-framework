@@ -2,9 +2,10 @@ package log
 
 import (
 	"encoding/json"
-	"framework/types"
-	"github.com/sirupsen/logrus"
 	"time"
+
+	"github.com/hoorayui/core-framework/types"
+	"github.com/sirupsen/logrus"
 )
 
 type Instance struct {

@@ -3,11 +3,12 @@ package log
 // log
 import (
 	"fmt"
-	"framework/util"
-	"framework/util/flag"
-	"github.com/sirupsen/logrus"
 	"io"
 	"os"
+
+	"github.com/hoorayui/core-framework/util"
+	"github.com/hoorayui/core-framework/util/flag"
+	"github.com/sirupsen/logrus"
 )
 
 // Logger 日志封装

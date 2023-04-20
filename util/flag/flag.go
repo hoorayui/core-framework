@@ -3,11 +3,12 @@ package flag
 import (
 	"flag"
 	"fmt"
-	"framework/components/config"
-	"framework/util"
 	"net/http"
 	"os"
 	"runtime"
+
+	"github.com/hoorayui/core-framework/components/config"
+	"github.com/hoorayui/core-framework/util"
 )
 
 var (

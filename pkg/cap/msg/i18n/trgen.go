@@ -2,7 +2,7 @@ package i18n
 
 import (
 	"fmt"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"html/template"
 	"io/ioutil"
 	"log"
@@ -139,7 +139,7 @@ func generateConstants(workdir, packageName string) {
 	sort.Slice(idArray, func(i, j int) bool { return idArray[i] < idArray[j] })
 	for _, k := range idArray {
 		f.Comment(k + " " + idMap[k])
-		f.Const().Id(k).Op("=").Qual("framework/pkg/cap/msg/i18n", "TrID").Call(jen.Lit("v_" + packageName + "_" + k))
+		f.Const().Id(k).Op("=").Qual("github.com/hoorayui/core-framework/pkg/cap/msg/i18n", "TrID").Call(jen.Lit("v_" + packageName + "_" + k))
 	}
 	// f.Add(jen.Const().Defs(constDeclar...))
 	os.Remove(newFile)
@@ -203,7 +203,7 @@ package {{.PackageName}}
 import (
 	"fmt"
 
-	"framework/pkg/cap/msg/i18n"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/i18n"
 	"golang.org/x/text/language"
 )
 

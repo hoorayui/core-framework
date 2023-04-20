@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/cap/msg/errors/example/ue"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors/example/ue"
 )
 
 func Test_grpcFindSomething(t *testing.T) {

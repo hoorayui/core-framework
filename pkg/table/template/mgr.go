@@ -2,16 +2,16 @@ package template
 
 import (
 	"fmt"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"log"
 	"time"
 
-	db "framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/cap/utils/idgen"
-	"framework/pkg/table/mysql"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/utils/idgen"
+	"github.com/hoorayui/core-framework/pkg/table/mysql"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 	"github.com/golang/protobuf/proto"
 )
 

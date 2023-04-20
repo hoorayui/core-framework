@@ -1,6 +1,6 @@
 package utils
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrFailedMapValue ...
 var ErrFailedMapValue = errors.New("failed to map value (%v) from dt(%s) to vt(%s)")

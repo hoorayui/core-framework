@@ -56,7 +56,7 @@ type OptionValue struct {
 - 注册一个 Option
 
 ```go
-import "framework/pkg/table/registry"
+import "github.com/hoorayui/core-framework/pkg/table/registry"
 
 //***********************************************************************
 options := []*OptionValue{....}
@@ -69,7 +69,7 @@ if err != nil {
 - 查询 Option
 
 ```go
-import "framework/pkg/table/registry"
+import "github.com/hoorayui/core-framework/pkg/table/registry"
 
 //***********************************************************************
 // 查询所有的选项
@@ -102,7 +102,7 @@ enum SectionType {
 ```
 
 ```go
-import "framework/pkg/table/registry"
+import "github.com/hoorayui/core-framework/pkg/table/registry"
 //***********************************************************************
 
 // 先加载，再注册
@@ -152,7 +152,7 @@ type OperatorSet interface {
 
 - 内建操作符
 
-内建操作符位于"framework/pkg/table/operator/builtin"，声明了大部分常用的数据库操作符与操作符集，操作符用于数据查询，需要在下文中的“数据驱动”中做对应实现
+内建操作符位于"github.com/hoorayui/core-framework/pkg/table/operator/builtin"，声明了大部分常用的数据库操作符与操作符集，操作符用于数据查询，需要在下文中的“数据驱动”中做对应实现
 
 - 自定义操作符
 
@@ -316,7 +316,7 @@ dddLabel := dbdriver.NewDBDriver("label")
 - 注册 Driver
 
 ```go
-import "framework/pkg/table/data"
+import "github.com/hoorayui/core-framework/pkg/table/data"
 if err = data.GlobalManager().RegisterDriver(tmdLabel.ID(), dddLabel); err != nil {
 	panic(err)
 }

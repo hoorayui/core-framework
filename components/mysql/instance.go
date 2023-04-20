@@ -2,13 +2,14 @@ package mysql
 
 import (
 	"encoding/json"
-	"framework/types"
+	"strings"
+	"time"
+
+	"github.com/hoorayui/core-framework/types"
 	"github.com/sirupsen/logrus"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
-	"strings"
-	"time"
 )
 
 type Instance struct {

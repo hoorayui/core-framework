@@ -1,6 +1,6 @@
 package dbdriver
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrInvalidValueForCondition ...
 var ErrInvalidValueForCondition = errors.New("invalid value for condition (%s)")

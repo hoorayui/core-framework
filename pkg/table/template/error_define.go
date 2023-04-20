@@ -1,6 +1,6 @@
 package template
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrOperatePermissionDenied 没有权限操作其他人创建的模板
 var ErrOperatePermissionDenied = errors.New("no access to make an operation to the template created by other user")

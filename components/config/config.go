@@ -1,9 +1,10 @@
 package config
 
 import (
-	"framework/types"
-	"framework/util"
 	"os"
+
+	"github.com/hoorayui/core-framework/types"
+	"github.com/hoorayui/core-framework/util"
 
 	"gopkg.in/yaml.v2"
 

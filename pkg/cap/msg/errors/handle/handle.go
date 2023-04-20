@@ -4,8 +4,8 @@ import (
 	"context"
 	"sync"
 
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/cap/msg/i18n"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/i18n"
 )
 
 // ErrorHandler handle error function

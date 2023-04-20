@@ -1,6 +1,6 @@
 package mysql
 
-import "framework/pkg/cap/msg/errors"
+import "github.com/hoorayui/core-framework/pkg/cap/msg/errors"
 
 // ErrRowsAffectedZero rows affected 0
 var ErrRowsAffectedZero = errors.New("rows affected 0")

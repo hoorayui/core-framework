@@ -8,10 +8,10 @@ import (
 	"strconv"
 	"strings"
 
-	"framework/pkg/cap/database/mysql"
-	"framework/pkg/table/data"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/table/data"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 )
 
 // ServeHTTP ...

@@ -1,5 +1,5 @@
 syntax = "proto3";
 package options;
 
-option go_package = "framework/pkg/table/demo/tables/options;options";
+option go_package = "github.com/hoorayui/core-framework/pkg/table/demo/tables/options;options";
 import "pkg/proto/extension/enum.proto";

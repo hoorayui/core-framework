@@ -2,7 +2,7 @@ package idgen
 
 import (
 	"crypto/rand"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	r "math/rand"
 )
 

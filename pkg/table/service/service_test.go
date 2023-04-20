@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"testing"
 
-	db "framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/test"
-	"framework/pkg/table/data"
-	"framework/pkg/table/demo/tables"
-	cap "framework/pkg/table/proto"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/test"
+	"github.com/hoorayui/core-framework/pkg/table/data"
+	"github.com/hoorayui/core-framework/pkg/table/demo/tables"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/metadata"

@@ -1,7 +1,7 @@
 package builtin
 
 import (
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 )
 
 // OperatorSet operator set for int

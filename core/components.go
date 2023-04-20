@@ -1,9 +1,10 @@
 package core
 
 import (
-	"framework/components/config"
-	"github.com/sirupsen/logrus"
 	"log"
+
+	"github.com/hoorayui/core-framework/components/config"
+	"github.com/sirupsen/logrus"
 )
 
 // InterfaceComponents 组件接口

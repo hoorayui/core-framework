@@ -3,17 +3,17 @@ package dbdriver
 import (
 	"context"
 	"fmt"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"reflect"
 	"strings"
 	"time"
 
-	"framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/table/data/driver"
-	"framework/pkg/table/operator/builtin"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver"
+	"github.com/hoorayui/core-framework/pkg/table/operator/builtin"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 	"github.com/jmoiron/sqlx"
 )
 

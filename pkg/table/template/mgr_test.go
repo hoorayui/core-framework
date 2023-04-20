@@ -3,8 +3,8 @@ package template
 import (
 	"testing"
 
-	db "framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/test"
+	db "github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/test"
 )
 
 var testDB *db.DB

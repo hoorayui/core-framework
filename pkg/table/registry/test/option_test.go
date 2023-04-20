@@ -4,7 +4,7 @@ import (
 	"log"
 	"testing"
 
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 )
 
 func TestLoadProtoEnum(t *testing.T) {

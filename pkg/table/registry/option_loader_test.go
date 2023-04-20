@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	cap "framework/pkg/table/proto"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 func TestLoadOptionFromProtoEnum(t *testing.T) {

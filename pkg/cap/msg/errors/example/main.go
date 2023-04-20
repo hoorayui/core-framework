@@ -1,13 +1,13 @@
 package main
 
-// import "framework/pkg/cap/msg/errors/example/ue"
+// import "github.com/hoorayui/core-framework/pkg/cap/msg/errors/example/ue"
 
 import (
 	"fmt"
 	"log"
 
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/cap/msg/errors/example/ue"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors/example/ue"
 )
 
 func main() {

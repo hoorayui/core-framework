@@ -3,7 +3,7 @@ package main
 import (
 	"context"
 
-	cap "framework/pkg/table/proto"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 )
 
 type TestUserInfoProvider struct{}

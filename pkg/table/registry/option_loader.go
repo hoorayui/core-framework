@@ -7,8 +7,8 @@ import (
 	"io"
 	"reflect"
 
-	"framework/pkg/proto/extension"
-	cap "framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/proto/extension"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
 	"github.com/golang/protobuf/proto"
 	protobuf "github.com/golang/protobuf/protoc-gen-go/descriptor"
 )

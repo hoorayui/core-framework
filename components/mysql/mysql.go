@@ -2,11 +2,12 @@ package mysql
 
 import (
 	"fmt"
-	"framework/util/flag"
 	"io"
 	"log"
 	"os"
 	"time"
+
+	"github.com/hoorayui/core-framework/util/flag"
 
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm/logger"

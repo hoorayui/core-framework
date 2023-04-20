@@ -1,12 +1,12 @@
 package context
 
 import (
-	"framework/components/config"
-	"framework/components/log"
-	"framework/components/mysql"
-	"framework/types"
-	"framework/util"
 	"github.com/gin-gonic/gin"
+	"github.com/hoorayui/core-framework/components/config"
+	"github.com/hoorayui/core-framework/components/log"
+	"github.com/hoorayui/core-framework/components/mysql"
+	"github.com/hoorayui/core-framework/types"
+	"github.com/hoorayui/core-framework/util"
 	"github.com/sirupsen/logrus"
 	"gorm.io/gorm"
 	"jihulab.com/ycwjck/metal-backend/api/apimodel"

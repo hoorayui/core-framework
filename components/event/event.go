@@ -2,8 +2,9 @@ package event
 
 import (
 	"encoding/json"
-	"framework/types"
 	"sync"
+
+	"github.com/hoorayui/core-framework/types"
 )
 
 type Instance struct {

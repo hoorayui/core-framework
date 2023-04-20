@@ -9,9 +9,9 @@ import (
 	"strings"
 	"time"
 
-	"framework/pkg/cap/msg/errors"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 	"github.com/shopspring/decimal"
 )
 

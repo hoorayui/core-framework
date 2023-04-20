@@ -2,16 +2,17 @@ package core
 
 import (
 	"fmt"
-	"framework/components/config"
-	"framework/components/log"
-	"framework/core/middleware"
-	"framework/types"
-	"framework/util"
-	"framework/util/flag"
 	"net"
 	"net/http"
 	"os"
 	"time"
+
+	"github.com/hoorayui/core-framework/components/config"
+	"github.com/hoorayui/core-framework/components/log"
+	"github.com/hoorayui/core-framework/core/middleware"
+	"github.com/hoorayui/core-framework/types"
+	"github.com/hoorayui/core-framework/util"
+	"github.com/hoorayui/core-framework/util/flag"
 
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"

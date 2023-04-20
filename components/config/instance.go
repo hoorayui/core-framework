@@ -2,8 +2,9 @@ package config
 
 import (
 	"encoding/json"
-	"framework/types"
-	"framework/util"
+
+	"github.com/hoorayui/core-framework/types"
+	"github.com/hoorayui/core-framework/util"
 )
 
 type Instance struct {

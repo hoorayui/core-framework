@@ -2,15 +2,15 @@ package errors
 
 import (
 	"fmt"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"log"
 	"runtime"
 	"strings"
 	"sync"
 	"time"
 
-	"framework/pkg/cap/msg"
-	"framework/pkg/cap/msg/i18n"
+	"github.com/hoorayui/core-framework/pkg/cap/msg"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/i18n"
 	"golang.org/x/text/language"
 
 	goerror "errors"

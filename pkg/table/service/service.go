@@ -2,20 +2,20 @@ package service
 
 import (
 	"context"
-	"framework/util"
+	"github.com/hoorayui/core-framework/util"
 	"time"
 
 	"golang.org/x/text/language"
 	"google.golang.org/grpc/codes"
 
-	"framework/pkg/cap/database/mysql"
-	"framework/pkg/cap/msg/errors"
-	"framework/pkg/cap/msg/errors/handle"
-	"framework/pkg/table/action"
-	"framework/pkg/table/data"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
-	"framework/pkg/table/template"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors"
+	"github.com/hoorayui/core-framework/pkg/cap/msg/errors/handle"
+	"github.com/hoorayui/core-framework/pkg/table/action"
+	"github.com/hoorayui/core-framework/pkg/table/data"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/table/template"
 	excelize "github.com/xuri/excelize/v2"
 )
 

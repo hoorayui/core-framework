@@ -6,13 +6,13 @@ import (
 	"log"
 	"testing"
 
-	"framework/pkg/cap/database/mysql"
-	"framework/pkg/table/data/driver"
-	"framework/pkg/table/data/driver/dbdriver"
-	"framework/pkg/table/data/utils"
-	"framework/pkg/table/operator/builtin"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver"
+	"github.com/hoorayui/core-framework/pkg/table/data/driver/dbdriver"
+	"github.com/hoorayui/core-framework/pkg/table/data/utils"
+	"github.com/hoorayui/core-framework/pkg/table/operator/builtin"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 )
 
 type MaterialData struct {

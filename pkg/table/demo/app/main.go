@@ -13,12 +13,12 @@ import (
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 
-	"framework/pkg/cap/database/mysql"
-	"framework/pkg/table/demo/tables"
-	"framework/pkg/table/doc"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
-	"framework/pkg/table/service"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	"github.com/hoorayui/core-framework/pkg/table/demo/tables"
+	"github.com/hoorayui/core-framework/pkg/table/doc"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/table/service"
 	"github.com/grpc-ecosystem/grpc-gateway/v2/runtime"
 
 	//"google.golang.org/grpc"

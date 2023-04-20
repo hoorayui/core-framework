@@ -3,9 +3,9 @@ package driver
 import (
 	"context"
 
-	"framework/pkg/cap/database/mysql"
-	cap "framework/pkg/table/proto"
-	"framework/pkg/table/registry"
+	"github.com/hoorayui/core-framework/pkg/cap/database/mysql"
+	cap "github.com/hoorayui/core-framework/pkg/table/proto"
+	"github.com/hoorayui/core-framework/pkg/table/registry"
 )
 
 // NewCondition 创建模板过滤条件

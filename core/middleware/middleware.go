@@ -3,11 +3,12 @@ package middleware
 import (
 	"bytes"
 	"fmt"
-	"framework/types"
-	util2 "framework/util"
 	"io"
 	"net/http"
 	"time"
+
+	"github.com/hoorayui/core-framework/types"
+	util2 "github.com/hoorayui/core-framework/util"
 
 	"github.com/sirupsen/logrus"
 
