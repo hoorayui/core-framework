@@ -56,7 +56,13 @@ func New(configFile string, components ...InterfaceComponents) *core {
 	app.InitComponents(components...)
 	return app
 }
-
+func Default() *core{
+	app := new(configFile string,&mysql.Instance{},
+		event.Instance{},
+		mysql.Instance{},
+		redis.Instance{})
+	return app
+}
 // Run start server
 func (c *core) Run() {
 	//rest 服务
