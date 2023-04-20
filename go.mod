@@ -1,4 +1,4 @@
-module framework
+module github.com/hoorayui/core-framework
 
 go 1.20
 
