@@ -2,11 +2,6 @@ package core
 
 import (
 	"fmt"
-	"net"
-	"net/http"
-	"os"
-	"time"
-
 	"github.com/hoorayui/core-framework/components/config"
 	"github.com/hoorayui/core-framework/components/event"
 	"github.com/hoorayui/core-framework/components/log"
@@ -16,6 +11,10 @@ import (
 	"github.com/hoorayui/core-framework/types"
 	"github.com/hoorayui/core-framework/util"
 	"github.com/hoorayui/core-framework/util/flag"
+	"net"
+	"net/http"
+	"os"
+	"time"
 
 	"github.com/gin-contrib/pprof"
 	"github.com/gin-gonic/gin"
