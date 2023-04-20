@@ -18,7 +18,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )
-
+conse version = "0.0.1"
 type InterfaceCore interface {
 	New(string) InterfaceCore              // 初始化组件
 	SetConf(string)                        // 初始化组件
@@ -36,7 +36,7 @@ type core struct {
 }
 
 // New 初始化应用组件并返回一个应用实例
-func New(version string, components ...InterfaceComponents) *core {
+func New(configFile string, components ...InterfaceComponents) *core {
 	app := &core{
 		components: map[string]InterfaceComponents{},
 		deferFuncs: map[string]func(){},
@@ -46,6 +46,9 @@ func New(version string, components ...InterfaceComponents) *core {
 
 	app.WorkDir = util.GetAppRoot()
 	app.configFile = flag.ConfigFile
+	if app.configFile == "" {
+		app.configFile = configFile
+	}
 	app.LoadComponents(&config.Instance{}, types.CfgConfig{
 		Path: app.configFile,
 	})
