@@ -1,4 +1,0 @@
-package builtin
-
-func init() {
-}
