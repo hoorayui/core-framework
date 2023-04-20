@@ -1,7 +1,7 @@
 module github.com/hoorayui/core-framework
 
 go 1.20
-
+replace github.com/hoorayui/core-framework => ../core-framework
 require (
 	github.com/BurntSushi/toml v1.2.1
 	github.com/araddon/qlbridge v0.0.2
