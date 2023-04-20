@@ -18,7 +18,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )
-const version = "0.0.1"
+var version = "0.0.1"
 type InterfaceCore interface {
 	New(string) InterfaceCore              // 初始化组件
 	SetConf(string)                        // 初始化组件
