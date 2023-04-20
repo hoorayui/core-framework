@@ -58,9 +58,9 @@ func New(configFile string, components ...InterfaceComponents) *core {
 }
 func Default(configFile string) *core{
 	app := new(configFile, &mysql.Instance{},
-		event.Instance{},
-		mysql.Instance{},
-		redis.Instance{})
+		&event.Instance{},
+		&mysql.Instance{},
+		&redis.Instance{})
 	return app
 }
 // Run start server
