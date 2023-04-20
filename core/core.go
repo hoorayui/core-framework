@@ -63,6 +63,12 @@ func Default(configFile string) *core{
 		&redis.Instance{})
 	return app
 }
+func Default(configFile string) *core {
+	app := New(configFile, &mysql.Instance{},
+		&redis.Instance{})
+	return app
+}
+
 // Run start server
 func (c *core) Run() {
 	//rest 服务
