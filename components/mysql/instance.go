@@ -30,6 +30,9 @@ func (i *Instance) Init(config interface{}) error {
 	bytes, _ := json.Marshal(config)
 	json.Unmarshal(bytes, &i.config)
 	i.Validate()
+	if len(i.config.DBDSN) < 1 {
+		logrus.Fatalf("数据库dsn未配置")
+	}
 	var dialector gorm.Dialector
 	if i.config.DBDriver == "mysql" {
 		dialector = mysql.Open(i.config.DBDSN[0].String(i.config.DBDriver))
