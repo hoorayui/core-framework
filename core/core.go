@@ -8,7 +8,10 @@ import (
 	"time"
 
 	"github.com/hoorayui/core-framework/components/config"
+	"github.com/hoorayui/core-framework/components/event"
 	"github.com/hoorayui/core-framework/components/log"
+	"github.com/hoorayui/core-framework/components/mysql"
+	"github.com/hoorayui/core-framework/components/redis"
 	"github.com/hoorayui/core-framework/core/middleware"
 	"github.com/hoorayui/core-framework/types"
 	"github.com/hoorayui/core-framework/util"
@@ -18,7 +21,9 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sirupsen/logrus"
 )
+
 var version = "0.0.1"
+
 type InterfaceCore interface {
 	New(string) InterfaceCore              // 初始化组件
 	SetConf(string)                        // 初始化组件
@@ -56,15 +61,10 @@ func New(configFile string, components ...InterfaceComponents) *core {
 	app.InitComponents(components...)
 	return app
 }
-func Default(configFile string) *core{
-	app := new(configFile, &mysql.Instance{},
-		&event.Instance{},
-		&mysql.Instance{},
-		&redis.Instance{})
-	return app
-}
 func Default(configFile string) *core {
 	app := New(configFile, &mysql.Instance{},
+		&event.Instance{},
+		&mysql.Instance{},
 		&redis.Instance{})
 	return app
 }
