@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package extension;
+option go_package = "framework/pkg/proto/extension;extension";
+import "pkg/proto/vendor/google/protobuf/descriptor.proto";
+
+extend google.protobuf.EnumValueOptions { string option_name = 3456; }
