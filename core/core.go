@@ -56,8 +56,8 @@ func New(configFile string, components ...InterfaceComponents) *core {
 	app.InitComponents(components...)
 	return app
 }
-func Default() *core{
-	app := new(configFile string,&mysql.Instance{},
+func Default(configFile string) *core{
+	app := new(configFile, &mysql.Instance{},
 		event.Instance{},
 		mysql.Instance{},
 		redis.Instance{})
