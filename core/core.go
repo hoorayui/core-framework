@@ -89,6 +89,7 @@ func (c *core) Run() {
 	return
 }
 
+// TODO addDefer
 // Stop the function that stop program with return value
 func (c *core) Stop() {
 	for _, close := range c.deferFuncs {
